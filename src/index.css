@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.draggable-element {
+  cursor: move;
+  position: absolute;
+}

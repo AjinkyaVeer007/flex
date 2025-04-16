@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "cv-maya";
+  src: url("./fonts/cv-maya.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cv-maya {
+  font-family: "cv-maya";
+}
+
+@font-face {
+  font-family: "baloo";
+  src: url("./fonts/baloo.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.baloo {
+  font-family: "baloo";
+}
+
+@font-face {
+  font-family: "hind";
+  src: url("./fonts/hind.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hind {
+  font-family: "hind";
+}
