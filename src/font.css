@@ -30,3 +30,36 @@
 .hind {
   font-family: "hind";
 }
+
+@font-face {
+  font-family: "shreedev_0715";
+  src: url("./fonts/shreedev-0715.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.shreedev-0715 {
+  font-family: "shreedev_0715";
+}
+
+@font-face {
+  font-family: "dg-pro-03";
+  src: url("./fonts/DG-PRO-03.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.dg-pro-03 {
+  font-family: "dg-pro-03";
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("./fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.poppins {
+  font-family: "poppins";
+}
