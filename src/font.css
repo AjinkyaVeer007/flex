@@ -63,3 +63,36 @@
 .poppins {
   font-family: "poppins";
 }
+
+@font-face {
+  font-family: "sau-97";
+  src: url("./fonts/sau-97.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sau-97 {
+  font-family: "sau-97";
+}
+
+@font-face {
+  font-family: "dgcally-10";
+  src: url("./fonts/DGCally-10.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.dgcally-10 {
+  font-family: "dgcally-10";
+}
+
+@font-face {
+  font-family: "khand";
+  src: url("./fonts/Khand-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.khand {
+  font-family: "khand";
+}
