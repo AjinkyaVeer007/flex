@@ -16,7 +16,10 @@ const styles = {
         top: "0",
         left: "0",
       },
-      bgPath: "/src/assets/bg/01.png",
+      bgPath:
+        "https://res.cloudinary.com/ajinkyasarjeraoveer/image/upload/v1745235751/wedding/template/01_bdehck.png",
+      cardPath:
+        "https://res.cloudinary.com/ajinkyasarjeraoveer/image/upload/v1745235853/wedding/cards/01_yyneve.png",
       texts: [
         {
           name: ["P]ZjoF{"],
@@ -181,7 +184,10 @@ const styles = {
         top: "0",
         left: "0",
       },
-      bgPath: "/src/assets/bg/02.png",
+      bgPath:
+        "https://res.cloudinary.com/ajinkyasarjeraoveer/image/upload/v1745235750/wedding/template/02_l5x35t.png",
+      cardPath:
+        "https://res.cloudinary.com/ajinkyasarjeraoveer/image/upload/v1745235852/wedding/cards/02_mryqbu.png",
       texts: [
         {
           name: ["AaHaya"],
@@ -331,7 +337,10 @@ const styles = {
         top: "0",
         left: "0",
       },
-      bgPath: "/src/assets/bg/03.png",
+      bgPath:
+        "https://res.cloudinary.com/ajinkyasarjeraoveer/image/upload/v1745235758/wedding/template/03_ovfqza.png",
+      cardPath:
+        "https://res.cloudinary.com/ajinkyasarjeraoveer/image/upload/v1745235858/wedding/cards/03_q51bon.png",
       texts: [
         {
           name: ["AaHaya"],
@@ -505,7 +514,10 @@ const styles = {
         top: "0",
         left: "0",
       },
-      bgPath: "/src/assets/bg/04.jpg",
+      bgPath:
+        "https://res.cloudinary.com/ajinkyasarjeraoveer/image/upload/v1745235748/wedding/template/04_de4li0.png",
+      cardPath:
+        "https://res.cloudinary.com/ajinkyasarjeraoveer/image/upload/v1745235868/wedding/cards/04_gstrls.png",
       texts: [
         {
           name: ["AHaya"],
@@ -651,7 +663,10 @@ const styles = {
         top: "0",
         left: "0",
       },
-      bgPath: "/src/assets/bg/05.jpg",
+      bgPath:
+        "https://res.cloudinary.com/ajinkyasarjeraoveer/image/upload/v1745235754/wedding/template/05_ywjiot.png",
+      cardPath:
+        "https://res.cloudinary.com/ajinkyasarjeraoveer/image/upload/v1745235876/wedding/cards/05_pmpjnd.png",
       texts: [
         {
           name: ["ĒaƮ{ųa"],
