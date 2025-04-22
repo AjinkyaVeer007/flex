@@ -824,6 +824,477 @@ const styles = {
         },
       ],
     },
+    5: {
+      boxStyle: {
+        width: "1000px",
+        height: "auto",
+        border: "1px solid #e2e2e2",
+        position: "relative",
+        overflow: "hidden",
+      },
+      bgStyle: {
+        width: "1000px",
+        height: "auto",
+        objectFit: "cover",
+        position: "absolute",
+        top: "0",
+        left: "0",
+      },
+      bgPath:
+        "https://res.cloudinary.com/ajinkyasarjeraoveer/image/upload/v1745322200/wedding/template/5_o8w41z.png",
+      cardPath:
+        "https://res.cloudinary.com/ajinkyasarjeraoveer/image/upload/v1745322154/wedding/cards/5_borpel.png",
+      texts: [
+        {
+          name: ["AHaya"],
+          identifier: "groomName",
+          isKeyboardRequired: true,
+          style: {
+            top: "72px",
+            left: "140px",
+            color: "#6a1904",
+            fontSize: "85px",
+            fontFamily: "sau-49",
+          },
+        },
+        {
+          name: ["FeSvayaaQ"],
+          identifier: "brideName",
+          isKeyboardRequired: true,
+          style: {
+            top: "72px",
+            left: "659px",
+            color: "#6a1904",
+            fontSize: "85px",
+            fontFamily: "sau-49",
+          },
+        },
+        {
+          name: ["चि."],
+          identifier: "groomTag",
+          style: {
+            top: "78px",
+            left: "201px",
+            color: "#cd411b",
+            fontSize: "15px",
+            fontFamily: "poppins",
+          },
+        },
+        {
+          name: ["चि.सौ.का."],
+          identifier: "brideTag",
+          style: {
+            top: "75px",
+            left: "704px",
+            color: "#cd411b",
+            fontSize: "15px",
+            fontFamily: "poppins",
+          },
+        },
+        {
+          name: [
+            "श्री. अप्पासाहेब शिवाप्पा गायकवाड ",
+            "मु. पो. भाटेवाडी, सोलापूर यांचे कनिष्ठ सुपूत्र",
+          ],
+          identifier: "groomParent",
+          style: {
+            top: "188px",
+            left: "117px",
+            color: "#cd411b",
+            fontSize: "18px",
+            fontFamily: "baloo",
+            textAlign: "center",
+          },
+        },
+        {
+          name: [
+            "श्री. मधुकर शिवाजी सावंत",
+            "मु. पो. सावंतवाडी, पाटण यांची द्वितीय सुकन्या",
+          ],
+          identifier: "brideParent",
+          style: {
+            top: "188px",
+            left: "652px",
+            color: "#cd411b",
+            fontSize: "18px",
+            fontFamily: "baloo",
+            textAlign: "center",
+          },
+        },
+        {
+          name: [
+            "रविवार दि. १४.१२.२०२५ रोजी सा. ०४:३५ मी. ",
+            "या शुभमुहूर्तावर करण्याचे योजिले आहे",
+          ],
+          identifier: "weddingDateTime",
+          style: {
+            top: "480px",
+            left: "378px",
+            color: "#cd411b",
+            fontSize: "20px",
+            fontFamily: "baloo",
+            textAlign: "center",
+          },
+        },
+        {
+          name: ["ज्ञान मंगल कार्यालय"],
+          identifier: "weddingHall",
+          style: {
+            top: "600px",
+            left: "386px",
+            color: "#981c12",
+            fontSize: "25px",
+            fontFamily: "poppins",
+            textAlign: "center",
+          },
+        },
+        {
+          name: ["पाचवड फाटा, ता. कराड जि. सातारा"],
+          identifier: "weddingAdd",
+          style: {
+            top: "636px",
+            left: "391px",
+            color: "#981c12",
+            fontSize: "18px",
+            fontFamily: "baloo",
+            textAlign: "center",
+            fontStyle: "itallic",
+          },
+        },
+        {
+          name: [
+            "श्री. रामचंद्र निवृत्ती गायकवाड",
+            "श्री. श्रीपती निवृत्ती गायकवाड",
+            "श्री. लक्ष्मण निवृत्ती गायकवाड",
+          ],
+          identifier: "invitor",
+          style: {
+            top: "721px",
+            left: "383px",
+            color: "#b6360c",
+            fontSize: "20px",
+            fontFamily: "hind",
+            textAlign: "center",
+          },
+        },
+      ],
+    },
+    6: {
+      boxStyle: {
+        width: "1000px",
+        height: "auto",
+        border: "1px solid #e2e2e2",
+        position: "relative",
+        overflow: "hidden",
+      },
+      bgStyle: {
+        width: "1000px",
+        height: "auto",
+        objectFit: "cover",
+        position: "absolute",
+        top: "0",
+        left: "0",
+      },
+      bgPath:
+        "https://res.cloudinary.com/ajinkyasarjeraoveer/image/upload/v1745322189/wedding/template/6_o5tgec.png",
+      cardPath:
+        "https://res.cloudinary.com/ajinkyasarjeraoveer/image/upload/v1745322154/wedding/cards/6_u5vb7i.png",
+      texts: [
+        {
+          name: ["अक्षय"],
+          identifier: "groomName",
+          style: {
+            top: "142px",
+            left: "165px",
+            backgroundImage:
+              "linear-gradient(to bottom, #f35e1b 0%, #b30c15 100%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            fontSize: "120px",
+            fontFamily: "tillana-bold",
+          },
+        },
+        {
+          name: ["ऐश्वर्या"],
+          identifier: "brideName",
+          style: {
+            top: "348px",
+            left: "190px",
+            backgroundImage:
+              "linear-gradient(to bottom, #f35e1b 0%, #b30c15 100%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            fontSize: "120px",
+            fontFamily: "tillana-bold",
+          },
+        },
+        {
+          name: ["चि."],
+          identifier: "groomTag",
+          style: {
+            top: "192px",
+            left: "145px",
+            color: "#990041",
+            fontSize: "18px",
+            fontFamily: "baloo",
+          },
+        },
+        {
+          name: ["चि.", "सौ.", "का."],
+          identifier: "brideTag",
+          style: {
+            top: "396px",
+            left: "160px",
+            color: "#990041",
+            fontSize: "18px",
+            fontFamily: "baloo",
+            textAlign: "center",
+          },
+        },
+        {
+          name: [
+            "श्री. अप्पासाहेब शिवाप्पा गायकवाड ",
+            "मु. पो. भाटेवाडी, सोलापूर यांचे कनिष्ठ सुपूत्र",
+          ],
+          identifier: "groomParent",
+          style: {
+            top: "133px",
+            left: "359px",
+            color: "#990041",
+            fontSize: "18px",
+            fontFamily: "baloo",
+            textAlign: "center",
+          },
+        },
+        {
+          name: [
+            "श्री. मधुकर शिवाजी सावंत",
+            "मु. पो. सावंतवाडी, पाटण यांची द्वितीय सुकन्या",
+          ],
+          identifier: "brideParent",
+          style: {
+            top: "303px",
+            left: "359px",
+            color: "#990041",
+            fontSize: "18px",
+            fontFamily: "baloo",
+            textAlign: "center",
+          },
+        },
+        {
+          name: [
+            "रविवार दि. १४.१२.२०२५ रोजी सा. ०४:३५ मी. ",
+            "या शुभमुहूर्तावर करण्याचे योजिले आहे",
+          ],
+          identifier: "weddingDateTime",
+          style: {
+            top: "857px",
+            left: "346px",
+            color: "#990041",
+            fontSize: "20px",
+            fontFamily: "baloo",
+            textAlign: "center",
+          },
+        },
+        {
+          name: ["ज्ञान मंगल कार्यालय"],
+          identifier: "weddingHall",
+          style: {
+            top: "998px",
+            left: "388px",
+            color: "#7c4407",
+            fontSize: "25px",
+            fontFamily: "poppins",
+            textAlign: "center",
+          },
+        },
+        {
+          name: ["पाचवड फाटा, ता. कराड जि. सातारा"],
+          identifier: "weddingAdd",
+          style: {
+            top: "1034px",
+            left: "395px",
+            color: "#a35603",
+            fontSize: "18px",
+            fontFamily: "baloo",
+            textAlign: "center",
+            fontStyle: "itallic",
+          },
+        },
+        {
+          name: [
+            "श्री. रामचंद्र निवृत्ती गायकवाड",
+            "श्री. श्रीपती निवृत्ती गायकवाड",
+            "श्री. लक्ष्मण निवृत्ती गायकवाड",
+          ],
+          identifier: "invitor",
+          style: {
+            top: "1126px",
+            left: "390px",
+            color: "#b6360c",
+            fontSize: "20px",
+            fontFamily: "hind",
+            textAlign: "center",
+          },
+        },
+      ],
+    },
+    7: {
+      boxStyle: {
+        width: "1000px",
+        height: "auto",
+        border: "1px solid #e2e2e2",
+        position: "relative",
+        overflow: "hidden",
+      },
+      bgStyle: {
+        width: "1000px",
+        height: "auto",
+        objectFit: "cover",
+        position: "absolute",
+        top: "0",
+        left: "0",
+      },
+      bgPath:
+        "https://res.cloudinary.com/ajinkyasarjeraoveer/image/upload/v1745322192/wedding/template/7_gg75fc.png",
+      cardPath:
+        "https://res.cloudinary.com/ajinkyasarjeraoveer/image/upload/v1745322154/wedding/cards/7_menzqw.png",
+      texts: [
+        {
+          name: ["अक्षय"],
+          identifier: "groomName",
+          style: {
+            top: "222px",
+            left: "413px",
+            backgroundImage:
+              "linear-gradient(to bottom, #831343 0%, #ff368c 100%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            fontSize: "100px",
+            fontFamily: "khand",
+          },
+        },
+        {
+          name: ["ऐश्वर्या"],
+          identifier: "brideName",
+          style: {
+            top: "412px",
+            left: "409px",
+            backgroundImage:
+              "linear-gradient(to bottom, #831343 0%, #ff368c 100%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            fontSize: "100px",
+            fontFamily: "khand",
+          },
+        },
+        {
+          name: ["चि."],
+          identifier: "groomTag",
+          style: {
+            top: "253px",
+            left: "382px",
+            color: "#990041",
+            fontSize: "18px",
+            fontFamily: "baloo",
+          },
+        },
+        {
+          name: ["चि.सौ.का."],
+          identifier: "brideTag",
+          style: {
+            top: "441px",
+            left: "341px",
+            color: "#990041",
+            fontSize: "18px",
+            fontFamily: "baloo",
+            textAlign: "center",
+          },
+        },
+        {
+          name: [
+            "श्री. अप्पासाहेब शिवाप्पा गायकवाड ",
+            "मु. पो. भाटेवाडी, सोलापूर यांचे कनिष्ठ सुपूत्र",
+          ],
+          identifier: "groomParent",
+          style: {
+            top: "344px",
+            left: "376px",
+            color: "#990041",
+            fontSize: "18px",
+            fontFamily: "baloo",
+            textAlign: "center",
+          },
+        },
+        {
+          name: [
+            "श्री. मधुकर शिवाजी सावंत",
+            "मु. पो. सावंतवाडी, पाटण यांची द्वितीय सुकन्या",
+          ],
+          identifier: "brideParent",
+          style: {
+            top: "529px",
+            left: "361px",
+            color: "#990041",
+            fontSize: "18px",
+            fontFamily: "baloo",
+            textAlign: "center",
+          },
+        },
+        {
+          name: [
+            "रविवार दि. १४.१२.२०२५ रोजी सा. ०४:३५ मी. ",
+            "या शुभमुहूर्तावर करण्याचे योजिले आहे",
+          ],
+          identifier: "weddingDateTime",
+          style: {
+            top: "810px",
+            left: "362px",
+            color: "#990041",
+            fontSize: "20px",
+            fontFamily: "baloo",
+            textAlign: "center",
+          },
+        },
+        {
+          name: ["ज्ञान मंगल कार्यालय"],
+          identifier: "weddingHall",
+          style: {
+            top: "927px",
+            left: "388px",
+            color: "#831343",
+            fontSize: "25px",
+            fontFamily: "poppins",
+            textAlign: "center",
+          },
+        },
+        {
+          name: ["पाचवड फाटा, ता. कराड जि. सातारा"],
+          identifier: "weddingAdd",
+          style: {
+            top: "959px",
+            left: "393px",
+            color: "#990041",
+            fontSize: "18px",
+            fontFamily: "baloo",
+            textAlign: "center",
+            fontStyle: "itallic",
+          },
+        },
+        {
+          name: ["समस्त गायकवाड परिवार"],
+          identifier: "invitor",
+          style: {
+            top: "1038px",
+            left: "394px",
+            color: "#831343",
+            fontSize: "25px",
+            fontFamily: "hind",
+            textAlign: "center",
+          },
+        },
+      ],
+    },
   },
 };
 

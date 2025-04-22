@@ -5,7 +5,7 @@ function EditorModal({ data }) {
   const inputRefs = useRef([]);
 
   const [inputStates, setInputStates] = useState([]);
-  const [color, setColor] = useState("#000000");
+  const [color, setColor] = useState("");
   const [fontSize, setFontSize] = useState("");
 
   const handleType = (letter, inputFieldPosition) => {
@@ -34,7 +34,8 @@ function EditorModal({ data }) {
 
   const handleDefaultValues = () => {
     setInputStates(data?.texts);
-    setColor(data?.style?.texts[data?.position].style?.color);
+    data?.style?.texts[data?.position].style?.color &&
+      setColor(data?.style?.texts[data?.position].style?.color);
     setFontSize(
       data?.style?.texts[data?.position].style?.fontSize.split("px")[0]
     );
@@ -110,14 +111,18 @@ function EditorModal({ data }) {
           </div>
         ))}
         <div className="flex gap-4">
-          <div>
-            <div className="leading-7 text-sm text-gray-600">Change color</div>
-            <input
-              type="color"
-              defaultValue={color}
-              onBlur={(e) => setColor(e.target.value)}
-            />
-          </div>
+          {color && (
+            <div>
+              <div className="leading-7 text-sm text-gray-600">
+                Change color
+              </div>
+              <input
+                type="color"
+                defaultValue={color}
+                onBlur={(e) => setColor(e.target.value)}
+              />
+            </div>
+          )}
           <div>
             <div className="leading-7 text-sm text-gray-600">
               Change font size

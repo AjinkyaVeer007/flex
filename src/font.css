@@ -96,3 +96,36 @@
 .khand {
   font-family: "khand";
 }
+
+@font-face {
+  font-family: "sau-49";
+  src: url("./fonts/sau-49.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sau-49 {
+  font-family: "sau-49";
+}
+
+@font-face {
+  font-family: "tillana-bold";
+  src: url("./fonts/Tillana-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.tillana-bold {
+  font-family: "tillana-bold";
+}
+
+@font-face {
+  font-family: "sau-64";
+  src: url("./fonts/sau-64.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sau-64 {
+  font-family: "sau-64";
+}
